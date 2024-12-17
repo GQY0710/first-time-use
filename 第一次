@@ -1,0 +1,7 @@
+echo "# first-time-use" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GQY0710/first-time-use.git
+git push -u origin main
